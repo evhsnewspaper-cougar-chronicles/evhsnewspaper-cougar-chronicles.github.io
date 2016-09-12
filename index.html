@@ -4,110 +4,59 @@
   <title>EVHS Newspaper Club</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <link rel="stylesheet" href="css/main.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js" type="text/javascript"></script>
-  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"type="text/javascript"></script>
-<!--
-<style>
-    /* Remove the navbar's default margin-bottom and rounded borders */
-.navbar {
-  margin-bottom: 0;
-  border-radius: 0;
-}
-
-/* Set height of the grid so .sidenav can be 100% (adjust as needed) */
-.row.content {height: 450px}
-
-/* Set gray background color and 100% height */
-.sidenav {
-  padding-top: 20px;
-  background-color: #f1f1f1;
-  height: 100%;
-}
-
-/* Set black background color, white text and some padding */
-footer {
-  background-color: #555;
-  color: white;
-  padding: 15px;
-}
-
-/* On small screens, set height to 'auto' for sidenav and grid */
-@media screen and (max-width: 767px) {
-  .sidenav {
-    height: auto;
-    padding: 15px;
-  }
-  .row.content {height:auto;}
-}
-</style>
--->
-
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css">
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
 </head>
 
 <body>
 
-<nav class="navbar navbar-inverse">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="#">Logo</a>
-        </div>
-    <div class="collapse navbar-collapse" id="myNavbar">
-      <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-          <li>
-          <div class="dropdown">
-            <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">2016-2017 Newspapers
-            <span class="caret"></span>
-            </button>
-          <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-            <li><a href="#">Coming Soon!</a></li>
-          </ul>
-        </div>
-          </li>
-          <li>
-        <div class="dropdown">
-            <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">2015-2016 Newspapers
-            <span class="caret"></span>
-            </button>
-          <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-            <li><a href="#">September Edition</a></li>
-            <li><a href="#">October Edition</a></li>
-              <li><a href="#">November Edition</a></li>
-              <li><a href="#">January Edition</a></li>
-              <li><a href="#">April Edition</a></li>
-          </ul>
-        </div>
-          </li>
+  <!-- Dropdown Structure -->
+  <ul id="dropdown1" class="dropdown-content">
+    <li><a href="#!">Coming Soon!</a></li>
+  </ul>
+  <!-- Dropdown Structure -->
+  <ul id="dropdown2" class="dropdown-content">
+    <li><a href="#">September Edition</a></li>
+    <li><a href="#">October Edition</a></li>
+    <li><a href="#">November Edition</a></li>
+    <li><a href="#">January Edition</a></li>
+    <li><a href="#">April Edition</a></li>
+  </ul>
+
+  <nav>
+    <div class="nav-wrapper">
+      <a href="#" class="brand-logo">Logo</a>
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <li><a href="#">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a class="dropdown-button" href="#!" data-activates="dropdown2">2016-2017 Newspapers<i class="material-icons right">arrow_drop_down</i></a></li>
+        <li><a class="dropdown-button" href="#!" data-activates="dropdown1">2015-2016 Newspapers<i class="material-icons right">arrow_drop_down</i></a></li>
         <li><a href="contactinfo.html">Contact Us</a></li>
       </ul>
     </div>
-  </div>
-</nav>
+  </nav>
 
-<div class="container-fluid text-center">
-  <div class="row content">
-    <div>
-      <h1>Welcome to Evergreen Valley HS Newspaper Club's official website!</h1>
-    </div>
+  <div>
+    <h1>Welcome to Evergreen Valley HS Newspaper Club's official website!</h1>
   </div>
-</div>
 
-<footer class="container-fluid text-center">
-  <p>Evergreen Valley HS Newspaper Club: Cougar Chronicles
-    <br>
-    <br>
+  <footer>
+    <p>Evergreen Valley HS Newspaper Club: Cougar Chronicles
+      <br>
+      <br>
       (c) Webmasters Michelle Li, Purva Bhattacharjee, Jenny Wen
     </p>
 
-</footer>
+  </footer>
 
 </body>
+<script>
+$( document ).ready(function {
+  $(".dropdown-button").dropdown();
+})
+</script>
+
 </html>
