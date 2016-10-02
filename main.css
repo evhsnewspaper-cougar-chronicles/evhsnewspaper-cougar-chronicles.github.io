@@ -10,7 +10,7 @@ body {
     background-size: contain;
     background-repeat: repeat-y;
     background-attachment: scroll; /*use scroll or fixed*/
-    background-color: #4db6ac 
+    background-color: teal lighten-2;
   }
   main {
     flex: 1 0 auto;
