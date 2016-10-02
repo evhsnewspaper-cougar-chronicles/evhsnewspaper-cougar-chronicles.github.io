@@ -6,7 +6,7 @@ body {
     min-height: 100vh;
     flex-direction: column;
  
-     background: url("https://raw.githubusercontent.com/evhsnewspaper-cougar-chronicles/evhsnewspaper-cougar-chronicles.github.io/27754ee55dc5e7812d7f5ac6f346e041187e4d5c/logo.jpg")no-repeat center center fixed;  
+     background: url("logo.jpg")no-repeat center center fixed;  
     background-size: contain;
     background-repeat: repeat-y;
     background-attachment: scroll; /*use scroll or fixed*/
