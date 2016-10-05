@@ -19,6 +19,9 @@ body {
 .nav-wrapper {
     background-color: #26a69a;
 }
+nav{
+	margin: 0px;
+}
 footer.page-footer {
     background-color: #26a69a;
 }
