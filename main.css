@@ -32,4 +32,6 @@ footer.page-footer {
 .slider {
     margin-left: 30px;
     margin-right: 30px;
+	height: 1000px;
+	width: 1600px;
 }
