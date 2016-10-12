@@ -29,6 +29,10 @@ footer.page-footer {
 .content {
     margin: 30px;
 }
+
+.about {
+    padding-left: 150px;
+}
 /*
 .slider {
     margin-left: 30px;
