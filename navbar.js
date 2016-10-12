@@ -1,7 +1,7 @@
 document.write('\
 		<ul id="dropdown1" class="dropdown-content">\
-			<li><a href="september1617.html">September Edition: Now Available!</a></li>\
-			<li><a href="september1617.html">October Edition: Coming Soon!</a></li>\
+			<li><a href="september1617.html">September Edition: NOW AVAILABLE!</a></li>\
+			<li><a href="september1617.html">October Edition: COMING SOON!</a></li>\
 		</ul>\
 		<ul id="dropdown2" class="dropdown-content">\
 			<li><a href="september1516.html">September Edition</a></li>\
