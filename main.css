@@ -21,6 +21,7 @@ body {
 }
 nav{
 	margin: 0px;
+    padding: 0px;
 }
 footer.page-footer {
     background-color: #26a69a;
@@ -31,7 +32,7 @@ footer.page-footer {
 }
 
 .about {
-    margin-left: 150px;
+    padding-left: 150px;
 }
 /*
 .slider {
