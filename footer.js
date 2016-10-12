@@ -16,7 +16,7 @@ document.write('\
 						<li style="display: inline"><a class="fa fa-envelope fa-2x white-text" href="mailto:evhsnewspaperclub@gmail.com" target="_blank"></a></li>\
 					</ul>\
 				</div>\
-				<div><img src="ad.png" height="96px"></div>\
+				<div><img src="ad.png" height="200px" weight= "400px"></div>\
 			</div>\
 			<div class="footer-copyright">\
 				<div class="container">© Webmasters Michelle Li, Purva Bhattacharjee, Jenny Wen</div>\
