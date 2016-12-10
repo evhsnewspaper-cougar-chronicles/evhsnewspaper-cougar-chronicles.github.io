@@ -11,7 +11,7 @@ body {
     flex: 1 0 auto;
   }
 .nav-wrapper {
-    background-color: #26a69a;
+    background-color: #ef6c00;
 }
 nav{
 	margin: 0px;
@@ -19,7 +19,7 @@ nav{
     position: relative;
 }
 footer.page-footer {
-    background-color: #26a69a;
+    background-color: #ef6c00;
 }
 
 .content {
