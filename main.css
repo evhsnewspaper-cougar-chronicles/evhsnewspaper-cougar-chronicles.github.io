@@ -16,6 +16,7 @@ body {
 nav{
 	margin: 0px;
     padding: 0px;
+    position: relative;
 }
 footer.page-footer {
     background-color: #26a69a;
@@ -33,6 +34,5 @@ footer.page-footer {
     margin-left: 80px;
     width: 87%;
     margin-right: 80px;
-
-	
+    position: relative;
 }
