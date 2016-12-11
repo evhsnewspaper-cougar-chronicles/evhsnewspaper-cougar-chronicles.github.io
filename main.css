@@ -32,8 +32,8 @@ footer.page-footer {
 
 .slider {
     margin-left: 80px;
-    width: 95%;
-    height: 100%;
+/*     width: 95%; */
+    height: 80%;
     margin-right: 80px;
     position: relative;
 }
