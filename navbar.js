@@ -1,7 +1,8 @@
 document.write('\
 		<ul id="dropdown1" class="dropdown-content">\
 			<li><a href="september1617.html">September Edition</a></li>\
-			<li><a href="octnov1617.html">October/November Edition: AVAILABLE NOW!</a></li>\
+			<li><a href="octnov1617.html">October/November Edition</a></li>\
+			<li><a href="decjan1617.html">December/January Edition: AVAILABLE NOW!</a></li>\
 		</ul>\
 		<ul id="dropdown2" class="dropdown-content">\
 			<li><a href="september1516.html">September Edition</a></li>\
@@ -18,7 +19,7 @@ document.write('\
 					<li><a href="about.html">About</a></li>\
 					<li><a class="dropdown-button" href="#!" data-activates="dropdown2">2015-2016 Newspapers<i class="material-icons right">arrow_drop_down</i></a></li>\
 					<li><a class="dropdown-button" href="#!" data-activates="dropdown1">2016-2017 Newspapers<i class="material-icons right">arrow_drop_down</i></a></li>\
-					<li><a class="waves-effect waves-light btn-large orange darken-3" href="advice.html">Need Advice?</a></li>\
+					<li><a class="waves-effect waves-light btn-large #00acc1 cyan darken-1" href="advice.html">Need Advice?</a></li>\
 				</ul>\
 			</div>\
 		</nav>\
