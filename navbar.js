@@ -23,7 +23,7 @@ document.write('\
 					<li><a class="dropdown-button" href="#!" data-activates="dropdown1">2015-2016 Newspapers<i class="material-icons right">arrow_drop_down</i></a></li>\
 					<li><a class="dropdown-button" href="#!" data-activates="dropdown2">2016-2017 Newspapers<i class="material-icons right">arrow_drop_down</i></a></li>\
 					<li><a class="dropdown-button" href="#!" data-activates="dropdown3">2017-2018 Newspapers<i class="material-icons right">arrow_drop_down</i></a></li>\
-					<li><a class="waves-effect waves-light btn-large #00acc1 cyan darken-1" href="advice.html">Need Advice?</a></li>\
+					<li><a class="waves-effect waves-light btn-large #00acc1 orange darken-3" href="advice.html">Need Advice?</a></li>\
 				</ul>\
 			</div>\
 		</nav>\
