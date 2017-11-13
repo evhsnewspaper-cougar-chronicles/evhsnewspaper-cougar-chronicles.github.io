@@ -19,7 +19,7 @@ document.write('\
 				<div><img src="ad.png" height="96px"></div>\
 			</div>\
 			<div class="footer-copyright">\
-				<div class="container">© Webmasters Michelle Li, Purva Bhattacharjee, Jenny Wen</div>\
+				<div class="container">© Webmasters Michelle Li, Purva Bhattacharjee, Jenny Wen, Pranati Modumudi, Hrishika Basava</div>\
 			</div>\
 		</div>\
 	</footer>\
